@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "DM Serif Display", serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-charcoal: #111111;
+  --color-warm-cream: #F7F1E7;
+  --color-burnt-orange: #C9683C;
+  --color-antique-gold: #C6A15B;
+  --color-deep-olive: #30352C;
+  --color-soft-stone: #D8D0C3;
+}
+
+@layer base {
+  body {
+    background-color: #111111;
+    color: #F7F1E7;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom subtle grain and luxury shadows */
+.bg-grain {
+  background-image: radial-gradient(rgba(247, 241, 231, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.gold-border {
+  border: 1px solid rgba(198, 161, 91, 0.25);
+}
+
+.gold-border-strong {
+  border: 1px solid rgba(198, 161, 91, 0.5);
+}

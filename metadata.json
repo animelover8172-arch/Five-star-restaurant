@@ -1,0 +1,6 @@
+{
+  "name": "Five Star Restaurant Bhabua",
+  "description": "Five Star Restaurant in Akhalashpur, Bhabua offering dine-in, drive-through and delivery options with Indian food and a welcoming dining atmosphere.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
